@@ -20,6 +20,46 @@
       <title>post</title>
     </head>
     <body>
+      <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                منو
+                <i class="fas fa-bars"></i>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <a class="navbar-brand" href="#"></a>
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger " href="#home"> خانه </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#"> برنامه نویسی پایتون </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        اینترنت اشیا
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Pendulum</a>
+                      <a class="dropdown-item" href="#">Requests</a>
+                      <a class="dropdown-item" href="#">Arrow</a>
+                      <a class="dropdown-item" href="#">pytorch</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#bg-post"> آخرین پست ها </a>
+                  </li>
+
+                </ul>
+                <form class="form-inline" action="">
+                  <input id="input-search" class="form-control mr-sm-2 pt-1 pb-1 " type="text" placeholder="جستجو">
+                  <button id="button-search" class="mr-1 ml-2 p-2 pr-3 pl-3" type="submit"> <i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+     </nav>
     	<header  class="text-center">
 
                 <div id="banner" class="container">
@@ -29,61 +69,57 @@
                             <div class="col">
 
                                   <h2 id="banner-heading" class="text-black-100 mt-6 my-6 font-weight-bold">
-                                  	شروع آموزش
+                                  	آموزش مورد نظر شما
                                   </h2>
 
                                   <h5 id="banner-par" class="text-black-100 mx-auto mt-4 mb-5 ">
-                                     از حسن انتخاب شما سپاسگزاریم.
+                                     با ما بهترین باشید
                                   </h5>
                             </div>
                       </div>
                 </div>
-        </header>
+    </header>
  		<div class="container-fluid">
  			<div class="row">
- 				<div class="col-md-2 Styles mt-4">
- 					<div class="row my-4">
-                          <div class="col">
-                                <form class="form-inline mb-3 mt-3" action="">
-                                  <button id="search-button"  class="mr-1 ml-2 p-2 pr-3 pl-3" type="submit"> <i class="fas fa-search"></i>
-                                   </button>
-                                   <input id="search-input" class="form-control mr-sm-2 pt-1 pb-1 " type="text" placeholder="جستجو">
-                                </form>
-                          </div>
-                    </div>
-
+ 				<div class="col-md-3 Styles my-5 mx-3 bg-filter">
 					<!--Filter-->
- 					<div class="row mt-3 mb-1">
- 						<div  class="col text-center mb-1 p-2  Purple ">
+					<div class="row mt-1">
+						<div class="col">
+						<div  class="col text-center mb-1 p-2 Purple ">
+							<a id="bg-color" href="" >فیلترگذاری</a>
+							</div>
+						</div>
+					</div>
+ 					<div class="row mt-3 mb-1 mx-2">
+ 						<div  class="col text-center mb-1 p-2 Purple ">
  							<a id="bg-color" href="" >فیلتر1</a>
  						</div>
  					</div>
- 					<div class="row mt-1 mb-1">
+ 					<div class="row mt-3 mb-1 mx-2">
  						<div  class="col text-center mb-1 p-2 Purple ">
- 							<a id="bg-color" href="" >فیلتر2</a>
+ 							<a id="bg-color" href="" >فیلتر1</a>
  						</div>
  					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center  mb-1 p-2 Purple " >
- 							<a id="bg-color" href="" >فیلتر3</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
+ 					<div class="row mt-3 mb-1 mx-2">
  						<div  class="col text-center mb-1 p-2 Purple ">
- 							<a id="bg-color" href="">فیلتر4</a>
+ 							<a id="bg-color" href="" >فیلتر1</a>
  						</div>
  					</div>
-
-                </div>
+ 					<div class="row mt-3 mb-1 mx-2">
+ 						<div  class="col text-center mb-1 p-2 Purple ">
+ 							<a id="bg-color" href="" >فیلتر1</a>
+ 						</div>
+ 					</div>
+        </div>
 				<!--end filter-->
 
 				<!--course-->
- 				<div class="col-md-8 main pb-2 " >
- 					<div class="row main1 mt-3 pt-2 pb-2 text-center justify-content-around">
+ 	      <div class="col-md-8 main pb-2 mt-5 " >
+          <div class="row main1 mt-3 pt-2 pb-2 mx-2 text-center justify-content-around">
  						<div class="col-sm-3">
  							<img class="m-1" id="img-courses" src="./img/banner.jpg" alt="">
  						</div>
- 						<div class="col-sm-8 main2">
+ 						<div class="col-sm-7 main2 mx-4">
  							<div class="row mb-3">
  								<div class="col">
  									<h6  class=" mt-3"><a id="bg-color" href="">
@@ -98,11 +134,11 @@
  							</div>
  						</div>
  					</div>
-					<div class="row main1 mt-3 pt-2 pb-2 text-center justify-content-around">
+          <div class="row main1 mt-3 pt-2 pb-2 mx-2 text-center justify-content-around">
  						<div class="col-sm-3">
  							<img class="m-1" id="img-courses" src="./img/banner.jpg" alt="">
  						</div>
- 						<div class="col-sm-8 main2">
+ 						<div class="col-sm-7 main2 mx-4">
  							<div class="row mb-3">
  								<div class="col">
  									<h6  class=" mt-3"><a id="bg-color" href="">
@@ -116,80 +152,52 @@
  								</div>
  							</div>
  						</div>
- 					</div>
-
+ 					</div>   
  				</div>
-                <!--end course-->
+       <!--end course-->
 
-				<!--Category-->
- 				<div  class="col-md-2 Styles">
- 					<div class="row">
- 						<div  class="col mt-5 mb-4 text-center">
- 							<h5 class="my-3" id="button-email">دسته بندی ها</h5>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center p-1 Purple ">
- 							<a id="bg-color" href="" >دسته بندی 8</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div class="col text-center p-1 Purple ">
- 							<a id="bg-color" href="" >دسته بندی 7</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center p-1 Purple " >
- 							<a id="bg-color" href="" >دسته بندی6</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center p-1 Purple  ">
- 							<a id="bg-color" href="">دسته بندی 5</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center p-1 Purple ">
- 							<a id="bg-color" href="" >دسته بندی 4</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center p-1 Purple ">
- 							<a id="bg-color" href="" >دسته بندی 3</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center p-1 Purple " >
- 							<a id="bg-color" href="" >دسته بندی 2</a>
- 						</div>
- 					</div>
- 					<div class="row mt-1 mb-1">
- 						<div  class="col text-center p-1 Purple ">
- 							<a id="bg-color" href="">دسته بندی 1</a>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
-        <!--end Category-->
-
-		<!--Footer-->
- 		 <section>
+	     	<!--Footer-->
+ 		    <section style="width:100%;">
               <div id="other" class="container-fluid">
                   <div id="Footer" class="row  justify-content-around p-4">
-                    <div class="col-md-3 pr-3 " id="bg-red" >
-                      <h5 id="links" class="p-2 mt-1 "><a href="">پورتفولیو</a></h5>
-                      <h5 id="links" class="p-2"><a href="" data-toggle="modal" data-target="#supportModal2">
-                      همکاری</a></h5>
-                      <h5 id="links" class="p-2" >
-                          <a href="" data-toggle="modal" data-target="#supportModal">دریافت انتقادات و پیشنهادات شما</a>
-                      </h5>
+                    <div class="col-md-4 p-2 " id="bg-red" >
+                       <div class="row">
+                           <div class="col">
+                              <h5  id="links" class="p-2 text-center" >
+                                  <a id="Contact" href="" data-toggle="modal" data-target="#supportModal">ارتباط با ما</a>
+                              </h5>
+                           </div>
+                       </div>
+                      <div class="row">
+                          <div class="col">
+                              <div  id="links" class="p-2 text-center" >
+                                  <a href="" data-toggle="modal" data-target="#supportModal">ما را در شبکه های اجتماعی زیر دنبال کنید</a>
+                                  <div class="d-flex justify-content-center mt-3">
+                                    <div class="p-2">
+                                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                                    </div>
+
+                                    <div class="p-2">
+                                    <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                                    </div>
+
+                                    <div class="p-2">
+                                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                                    </div>
+
+                                    <div class="p-2">
+                                    <a href="#"><i class="fab fa-telegram fa-2x"></i></a>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                       </div>
                     </div>
                     <div class="col-md-8 p-3" id="bg-red">
                          <div class="row">
                            <div class="col">
                               <h6 id="bg-color" class="p-3">
-                                آخرین پست ها و مطالب آموزشی را با  ایمیل خود دریافت کنید.
+                                آخرین پست ها و مطالب آموزشی را با  ایمیل خود دریافت کنید
                               </h6>
                            </div>
                       </div>
@@ -204,9 +212,17 @@
                           </div>
                       </div>
                     </div>
+                    <div class="row">
+                    <div class="col text-center mt-3 mr-6">
+                        <p class="hicoda">made with<i class="fa fa-heart mx-2" ></i> by hiCoda </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
+	    <!--endFooter-->
+
+			<!--modal_email-->
             <div class="modal fade text-muted " id="supportModal">
                 <div class="modal-dialog">
                   <div class="modal-content">
@@ -239,11 +255,6 @@
                     </div>
                   </div>
             </div>
-			<!--endFooter-->
-
-
-
-
-
+			<!--endmodal-->
     </body>
 </html>

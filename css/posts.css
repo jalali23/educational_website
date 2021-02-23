@@ -37,7 +37,7 @@ body {
   border: 1px solid #C9C917;
 }
 #search-button{
-    border-radius:50px;
+    border-radius:50%;
     background-color:#880B09;
     border: 1px solid #C9C917;
 }
@@ -71,6 +71,10 @@ header {
   background-color:#07125C;
   border-radius:90px;
 }
+.bg-filter{
+  background-color:#880B09;
+  border-radius:15px;
+}
 #img-courses{
   width: 200px;
   height: 200px;
@@ -92,18 +96,23 @@ header {
     height: 100px;
     border-radius:70px;
    }
+   .main1{
+    background-color:#07125C;
+    border-radius:90px;
+    width: 100%;
+  }
    .main2{
     background-color:#880B09;
     border-radius:50px;
-    height: 100px;
-    width: 270px;
+    height:50%;
+    width:100%;
   }
 .title-course{
     font-size:13px;
 }
 .more{
      font-size:10px;
-     margin-bottom:20px;
+     margin-bottom:30px;
 }
   #search-input{
   width:80%;
